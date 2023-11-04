@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('./reset.css');
+:root {
+    --font-inter: 'Inter', sans-serif;
+    --lilas: #4E2597;
+}
+
+.body__tema {
+    font-family: var(--font-inter);
+    background-image: url("../img/MAOS_UNIAO.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.secao__input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.75em;
+}
+
+.container__input {
+    position: relative;
+    display: inline-block;
+    border-radius: 0.5em;
+}
+
+.secao__submit {
+    width: 7em;   
+    height: 2em;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: var(--lilas);
+}
+
+.secao__submit:hover {
+    background-color: #3b1b72;
+}
+
+.secao__submit:active {
+    background-color: #561abd;
+}
+
+.logo__dmm {
+    height: 1em;
+}
+
+a {
+    color: black;
+}
+
+a:active {
+    color: #561abd;
+}
+
+.rodape__cadastro {
+    max-width: 90%; /* Largura máxima do conteúdo do rodapé */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    text-align: end;
+    
+}
+
+.logo__dmm {
+    height: 1em;
+}
+
+a {
+    color: black;
+}
+
+a:active {
+    color: #561abd;
+}
+
+footer {
+    position: fixed;
+    background-color: #333;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0; /* Centraliza o conteúdo horizontalmente */
+}
+
